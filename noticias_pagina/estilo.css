@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Helvetica';
+}
+
+h1{
+    font-size: 30px;
+}
+
+header{
+    background-color: rgb(4, 111, 250);
+    color: #fff;
+    padding: 20px 15px 20px 15px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    padding-left: 75px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(232, 232, 231);
+}
+
+nav a:hover{
+    color: rgb(0, 255, 251);
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+
+#noticias{
+    background-color: #d4d4d4;
+    padding: 30px;
+    margin-top: 120px;
+}
+
+
+.artigo-noticia h2{
+    color: rgb(36, 36, 36);
+    padding-bottom: 15px;
+}
+
+.artigo-noticia p{
+    text-align: justify;
+    color:rgb(72, 72, 72);
+    padding-bottom: 15px;
+}
+
+.artigo-noticia{
+    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 65px;
+    padding: 20px 15px 30px 15px;
+    background-color: rgb(194, 194, 194);
+}
+
+.artigo-img{
+    width: 400px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-noticia{
+    padding: 10px 22px 10px 22px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: rgb(11, 110, 163);
+    box-shadow: 1px 1px 0px rgba(11, 110, 163, 0.302);
+    font-weight: bold;
+    color: rgb(94, 193, 255);
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+footer{
+    clear: both;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
